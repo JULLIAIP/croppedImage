@@ -1,4 +1,4 @@
-# Cropped Image - ![image](https://user-images.githubusercontent.com/81257067/138517447-ea95af52-21f3-4f10-bcdc-ac5283222699.png)
+# Cropped Image - abstracted-rice.surge.sh
 
 ##Aplicação para cortar imagens
 
