@@ -1,8 +1,8 @@
 # Cropped Image - abstracted-rice.surge.sh
 
-##Aplicação para cortar imagens
+#Aplicação para cortar imagens
 
-#Como Funciona
+#Como Funciona :
 #
 
 ##Carregue a Foto
