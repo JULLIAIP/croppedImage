@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplicação Canvas e JS</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        id="logo"
+        src="https://mir-s3-cdn-cf.behance.net/project_modules/max_632/04de2e31234507.564a1d23645bf.gif"
+      />
+      <h1>Júllia Izidorio</h1>
+      <p>Aplicação utilizando HTML5 Canvas e JS</p>
+    </header>
+
+    <main>
+      <h1>Corte suas fotos em menos de um minuto!</h1>
+      <button id="select-image">
+        <input type="file" id="photo-file" />
+        <img
+          id="icone"
+          src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f4e4.png"
+        />
+        <span>Selecionar imagem</span>
+      </button>
+      <img src="" alt="" id="photo-preview" draggable="false" />
+      <button id="crop-image"><span>Cortar Imagem</span></button>
+      <button id="down-image"><span>Baixar Imagem</span></button>
+      <div id="selection-tool"></div>
+    </main>
+
+    <footer>contato.julliaizidorio@gmail.com</footer>
+
+    <script src="scripts.js" type="module"></script>
+  </body>
+</html>

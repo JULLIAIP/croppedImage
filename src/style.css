@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+button,
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #9E7B67;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    display: grid;
+    justify-content: space-around;
+    margin-top: 3.2rem;
+    padding-bottom: 4rem;
+
+    text-align: center;
+    color: #9E7B67;
+
+    animation: up 0.4s;
+
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+
+}
+
+#icone {
+    width: 40px;
+    height: 40px;
+}
+
+header p {
+    font-family: monospace;
+}
+
+main {
+    margin: 0 auto;
+    width: min(80vw, 500px);
+
+    animation: up 0.4s 0.2s backwards;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 3.2rem 0 1.6rem;
+    animation: up 0.4s 0.4s backwards;
+}
+
+button {
+    display: flex;
+    gap:10%;
+    justify-content: center;
+
+    align-items: center;    
+    width: 100%;
+    padding: .8rem 1.6rem;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: normal;
+    border: none;
+    border-radius: 0.4rem;
+    background: #9E7B67;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translate(1px, 1px);
+}
+
+button+button {
+    margin-top: .8rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* esconde o botao de escolher ficheiro */
+#photo-file {
+    display: none;
+}
+
+#photo-preview {
+    margin-top: 10px;
+}
+
+#selection-tool {
+    position: fixed;
+    display: none;
+    border: 2px dashed green;
+
+}
+
+#crop-image {
+    display: none;
+}
+
+#down-image {
+    display: none;
+}
