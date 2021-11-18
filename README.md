@@ -1,8 +1,8 @@
 # Cropped Image - abstracted-rice.surge.sh
 
-#Aplicação para cortar imagens feita com HTML CANVA e js
+Aplicação para cortar imagens feita com HTML CANVA e js
 
-#Como Funciona :
+Como Funciona :
 #
 
 Carregue a Foto
