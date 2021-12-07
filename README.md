@@ -1,11 +1,8 @@
-# Cropped Image 
-Teste a aplicaçao em :  <a href="https://abstracted-rice.surge.sh/">abstracted-rice.surge.sh</a>
-#
+#  <a href="https://abstracted-rice.surge.sh/">Cropped Image </a>
 
 Aplicação para cortar imagens feita com HTML CANVA e js
-#
-Como Funciona :
 
+# Como Funciona :
 
 <li>carregue a Foto</li>
 
