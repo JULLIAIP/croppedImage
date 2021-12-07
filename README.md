@@ -1,6 +1,12 @@
 #  <a href="https://abstracted-rice.surge.sh/">Cropped Image </a>
 
-Aplicação para cortar imagens feita com HTML CANVA e js
+Aplicação para cortar imagens feita com 
+
+# TECNOLOGIAS
+<li>HTML CANVA</li>
+<li>Java Scritp Vanilla</li>
+<li>CSS</li>
+
 
 # Como Funciona :
 
